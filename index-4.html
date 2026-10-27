@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0f3b2c">
+<meta name="description" content="A starter Pennsylvania Dutch (Deitsh) course for the ministry: lessons, flashcards, quizzes and native-speaker recordings.">
+<title>Pennsylvania Dutch for the Ministry</title>
+<link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYmciIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjMGYzYjJjIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzM1YTM3YSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxyYWRpYWxHcmFkaWVudCBpZD0ic3VuIiBjeD0iMC41IiBjeT0iMC41IiByPSIwLjUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZmQ0OGEiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZjVhNTI0Ii8+CiAgICA8L3JhZGlhbEdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcng9IjExMiIgZmlsbD0idXJsKCNiZykiLz4KICA8Y2lyY2xlIGN4PSIzNTIiIGN5PSIzNTIiIHI9IjE1MCIgZmlsbD0idXJsKCNzdW4pIiBvcGFjaXR5PSIwLjk1Ii8+CiAgPGcgZmlsbD0iI2ZmZmZmZiI+CiAgICA8cmVjdCB4PSIxMTgiIHk9IjEzMiIgd2lkdGg9IjI3NiIgaGVpZ2h0PSIyMDAiIHJ4PSI0NiIvPgogICAgPHBhdGggZD0iTTE3NiAzMjIgTDE2MCAzNzggTDIzMiAzMzIgWiIvPgogIDwvZz4KICA8dGV4dCB4PSIyNTYiIHk9IjI2OCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Ik51bml0bywgQXJpYWwgUm91bmRlZCBNVCBCb2xkLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9IjkwMCIgZm9udC1zaXplPSIxMzIiIGZpbGw9IiMwZjNiMmMiPkR0PC90ZXh0Pgo8L3N2Zz4K" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&display=swap">
+<style>
+:root{--ink:#202632;--muted:#667085;--paper:#f5f7fc;--card:#fff;--accent:#3157c8;--soft:#e9edff;--line:#e2e7f0;--good:#137547;--goodbg:#e8f7ef;--bad:#b42318;--badbg:#fff0ef;--gold:#95630b}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.52 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}header{background:linear-gradient(120deg,#1e3068,#496de0);color:#fff;padding:24px 16px 20px}header .wrap,main{max-width:1000px;margin:auto}h1{font-size:clamp(1.65rem,5vw,2.35rem);margin:0}header p{margin:5px 0 0;color:#eef1ff}.subhead{font-size:.91rem;color:#e0e6ff}main{padding:16px 12px 44px}.tabs{display:flex;gap:7px;overflow-x:auto;padding:3px 0 10px;margin-bottom:8px}.tab{border:1px solid var(--line);background:#fff;border-radius:999px;padding:9px 13px;font-weight:700;cursor:pointer;white-space:nowrap}.tab.active{background:var(--accent);color:white;border-color:var(--accent)}.panel{background:var(--card);border:1px solid var(--line);border-radius:17px;padding:17px;margin-bottom:14px;box-shadow:0 4px 18px #243b8308}.row{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}.muted{color:var(--muted)}.small{font-size:.88rem}.tiny{font-size:.78rem}.progress{height:7px;background:#edf0f7;border-radius:30px;overflow:hidden;margin:12px 0}.progress span{display:block;height:100%;background:var(--accent);width:0;transition:width .2s}.title{margin:2px 0 6px}.phrase{border-top:1px solid var(--line);padding:17px 0}.phrase:first-child{border-top:0}.jp{font-size:clamp(1.35rem,4.5vw,1.75rem);font-weight:760;line-height:1.4;letter-spacing:.01em}.romaji{font-size:1.05rem;color:#5368ac;margin:2px 0 8px}.meaning{font-weight:650;margin:8px 0}.breakdown{display:flex;flex-wrap:wrap;gap:7px;margin:10px 0}.chunk{background:#f0f3fa;border-radius:8px;padding:7px 9px;font-size:.88rem}.chunk b{display:block;font-size:.96rem}.actions{display:flex;flex-wrap:wrap;gap:7px;margin:10px 0}.button,button{font:inherit}.primary,.secondary,.danger,.grade{border:0;border-radius:10px;padding:9px 13px;font-weight:700;cursor:pointer}.primary{background:var(--accent);color:white}.secondary{background:white;border:1px solid var(--line);color:var(--ink)}.danger{background:var(--badbg);color:var(--bad)}.grade{background:#f0f3fa;color:var(--ink);border:1px solid var(--line);flex:1;min-width:75px}.primary:disabled,.secondary:disabled{opacity:.45;cursor:not-allowed}.note{font-size:.88rem;color:var(--muted);margin-top:7px}.tag{font-size:.75rem;font-weight:700;background:var(--soft);color:#314da8;padding:3px 7px;border-radius:30px}.daygrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(125px,1fr));gap:8px}.daybutton{text-align:left;border:1px solid var(--line);border-radius:12px;background:white;padding:11px;cursor:pointer;min-height:88px}.daybutton.selected{border:2px solid var(--accent);background:var(--soft);padding:10px}.daybutton strong{display:block}.daybutton .state{font-size:.78rem;color:var(--muted)}.choices{display:grid;gap:8px;margin:12px 0}.choice{text-align:left;background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px;cursor:pointer}.choice:hover{border-color:var(--accent)}.choice.correct{border-color:var(--good);background:var(--goodbg)}.choice.wrong{border-color:var(--bad);background:var(--badbg)}.feedback{padding:11px 12px;border-radius:10px;margin:12px 0}.feedback.good{background:var(--goodbg);color:var(--good)}.feedback.bad{background:var(--badbg);color:var(--bad)}.hidden{display:none!important}.stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.stat{background:#f1f4fb;padding:12px;border-radius:12px}.stat strong{display:block;font-size:1.45rem}.input{font:inherit;border:1px solid var(--line);border-radius:9px;padding:9px 10px;background:white;max-width:100%}.kana-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(67px,1fr));gap:7px;margin-top:12px}.kana-card{border:1px solid var(--line);border-radius:12px;background:#fff;padding:9px;text-align:center;cursor:pointer}.kana-card .big{font-size:1.65rem;font-weight:750}.kana-card .roman{font-size:.83rem;color:var(--muted)}.kanji-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:8px}.kanji-card{border:1px solid var(--line);border-radius:12px;padding:11px;background:white}.kanji-char{font-size:2rem;font-weight:750}.flash{padding:22px;text-align:center;border:1px solid var(--line);border-radius:15px;background:#fbfcff;margin:12px 0}.flash .front{font-size:3.3rem;font-weight:800}.divider{border:0;border-top:1px solid var(--line);margin:14px 0}.two-col{display:grid;grid-template-columns:1fr;gap:12px}.pillrow{display:flex;gap:6px;flex-wrap:wrap}.status{padding:10px;border-radius:10px;background:#f2f4f8;color:var(--muted);margin:10px 0}.status.good{background:var(--goodbg);color:var(--good)}.status.bad{background:var(--badbg);color:var(--bad)}.inline-select{display:flex;flex-wrap:wrap;gap:8px;align-items:center}.meter{background:#eff1f6;border-radius:9px;height:9px;overflow:hidden}.meter span{display:block;background:var(--accent);height:100%}.smalllink{color:#3157c8;text-decoration:underline;cursor:pointer;background:none;border:0;padding:0}.footer{text-align:center;color:var(--muted);font-size:.82rem;padding:10px}@media(min-width:720px){.stats{grid-template-columns:repeat(4,minmax(0,1fr))}.two-col{grid-template-columns:1fr 1fr}.panel{padding:20px}}
+:root{--ink:#1b2236;--muted:#5d6a85;--paper:#eef2fb;--card:#ffffff;--accent:#3a5fd6;--accent2:#5b7cf0;--soft:#eaf0ff;--line:#dfe6f3;--good:#117a4a;--goodbg:#e6f7ee;--bad:#b42318;--badbg:#fdeceb;--sun:#ff5d84;--shadow:0 1px 2px rgba(20,34,80,.05),0 8px 24px -10px rgba(20,34,80,.18);--radius:18px}
+html{background:var(--paper)}
+body{background:radial-gradient(1200px 500px at 50% -200px,#dfe8ff 0%,transparent 70%),var(--paper);font-family:"Nunito","Noto Sans JP",system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+header{position:relative;overflow:hidden;background:linear-gradient(135deg,#17266b 0%,#2f4fbf 55%,#5b7cf0 100%);color:#fff;padding:30px 18px 26px;box-shadow:0 10px 30px -12px rgba(23,38,107,.6)}
+header::before,header::after{content:"";position:absolute;border-radius:50%;pointer-events:none}
+header::before{width:340px;height:340px;right:-120px;top:-150px;background:rgba(255,93,132,.22)}
+header::after{width:220px;height:220px;left:-80px;bottom:-130px;background:rgba(255,255,255,.07)}
+header .wrap{position:relative;z-index:1;display:flex;gap:14px;align-items:center}
+.brand-icon{width:56px;height:56px;flex:0 0 56px;filter:drop-shadow(0 6px 14px rgba(0,0,0,.25))}
+h1{font-size:clamp(1.6rem,5vw,2.3rem);font-weight:900;letter-spacing:-.02em;line-height:1.1;font-family:"Nunito","Noto Sans JP",sans-serif}
+header p{margin:4px 0 0;color:#e8edff;font-weight:600}
+.subhead{font-size:.9rem;color:#cfdaff;margin-top:6px;max-width:44ch}
+.dl{margin-left:auto;align-self:flex-start;flex:0 0 auto;border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.14);color:#fff;border-radius:999px;padding:8px 14px;font-weight:800;font-size:.85rem;cursor:pointer;backdrop-filter:blur(6px);white-space:nowrap}
+.dl:hover{background:rgba(255,255,255,.24)}
+main{max-width:980px;padding:18px 14px 56px}
+.tabs{gap:8px;padding:4px 2px 12px;margin-bottom:6px;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:999px;padding:10px 16px;font-weight:800;box-shadow:0 1px 2px rgba(20,34,80,.05);transition:transform .15s,box-shadow .15s,background .15s}
+.tab:hover{transform:translateY(-1px);box-shadow:0 6px 16px -8px rgba(20,34,80,.3)}
+.tab.active{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border-color:transparent;box-shadow:0 8px 18px -8px rgba(58,95,214,.7)}
+.tab:focus-visible,button:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #9db4ff;outline-offset:2px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px;margin-bottom:18px;box-shadow:var(--shadow)}
+.title{font-size:1.35rem;font-weight:900;letter-spacing:-.01em;color:var(--ink);margin:2px 0 6px}
+h2.title{font-size:1.55rem}
+h3.title{font-size:1.2rem}
+.muted{color:var(--muted)}
+.tiny{font-size:.74rem;letter-spacing:.12em;font-weight:800;color:var(--accent)}
+.small{font-size:.9rem}
+.progress{height:9px;background:#e4eaf7;border-radius:999px;overflow:hidden;margin:14px 0}
+.progress span{background:linear-gradient(90deg,var(--accent),var(--sun))}
+.meter{background:#e4eaf7;border-radius:999px;height:10px}
+.meter span{background:linear-gradient(90deg,var(--accent),var(--sun));border-radius:999px}
+.phrase{padding:20px 0}
+.jp{font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic",sans-serif;font-weight:800;font-size:clamp(1.5rem,5vw,2rem)}
+.romaji{color:var(--accent);font-weight:700;font-size:1.02rem}
+.meaning{font-size:1.08rem;font-weight:800}
+.chunk{background:var(--soft);border:1px solid #d9e3ff;border-radius:12px;padding:8px 11px}
+.chunk b{color:var(--ink)}
+.primary,.secondary,.danger,.grade{font-family:inherit;font-weight:800;border-radius:12px;padding:10px 16px;transition:transform .12s,box-shadow .15s,background .15s}
+.primary{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;box-shadow:0 8px 18px -10px rgba(58,95,214,.9);border:0}
+.primary:hover:not(:disabled){transform:translateY(-1px);box-shadow:0 10px 22px -10px rgba(58,95,214,.95)}
+.secondary{background:#fff;border:1px solid var(--line);color:var(--ink);box-shadow:0 1px 2px rgba(20,34,80,.05)}
+.secondary:hover:not(:disabled){background:#f6f8ff;border-color:#c9d5f0}
+button:active:not(:disabled){transform:translateY(1px) scale(.99)}
+.primary:disabled,.secondary:disabled{opacity:.4}
+.grade{background:#f6f8ff;border:1px solid var(--line)}
+.note{font-size:.9rem;color:var(--muted)}
+.tag{background:var(--soft);color:#2e4cb8;font-weight:800;letter-spacing:.02em;padding:4px 10px}
+.daygrid{gap:10px;grid-template-columns:repeat(auto-fill,minmax(130px,1fr))}
+.daybutton{border:1px solid var(--line);border-radius:14px;background:#fff;padding:12px;min-height:92px;box-shadow:0 1px 2px rgba(20,34,80,.04);transition:transform .15s,box-shadow .15s,border-color .15s}
+.daybutton:hover{transform:translateY(-2px);box-shadow:0 10px 20px -12px rgba(20,34,80,.35);border-color:#c9d5f0}
+.daybutton.selected{border:2px solid var(--accent);background:linear-gradient(180deg,#f1f5ff,#e6edff);padding:11px}
+.daybutton strong{font-weight:900;color:var(--ink)}
+.daybutton .state{color:var(--muted)}
+.choice{border-radius:12px;padding:14px;font-weight:700;font-family:inherit;transition:border-color .15s,background .15s,transform .12s}
+.choice:hover:not(:disabled){transform:translateX(3px)}
+.choice.correct{border-color:var(--good);background:var(--goodbg);color:var(--good)}
+.choice.wrong{border-color:var(--bad);background:var(--badbg);color:var(--bad)}
+.feedback{border-radius:12px;font-weight:800}
+.stats{gap:10px}
+.stat{background:linear-gradient(180deg,#f5f8ff,#edf2ff);border:1px solid #e3e9f8;border-radius:14px;padding:14px}
+.stat strong{font-weight:900;color:var(--accent);font-size:1.6rem}
+.input{border-radius:11px;border:1px solid var(--line);font-family:inherit;font-weight:700}
+.status{border-radius:12px;background:#f3f6fc;font-weight:600}
+.flash{border:1px solid #e0e8fa;border-radius:20px;background:linear-gradient(180deg,#fbfcff,#f2f6ff);padding:28px 20px;box-shadow:inset 0 1px 0 #fff}
+.flash .front{font-family:"Noto Sans JP",sans-serif;font-weight:900;color:var(--ink)}
+.kana-card,.kanji-card{border-radius:14px;border:1px solid var(--line);box-shadow:0 1px 2px rgba(20,34,80,.04);transition:transform .15s,box-shadow .15s}
+.kana-card:hover,.kanji-card:hover{transform:translateY(-2px);box-shadow:0 10px 20px -12px rgba(20,34,80,.35)}
+.kana-card .big{font-family:"Noto Sans JP",sans-serif;color:var(--ink)}
+.kana-card .roman{font-weight:700}
+.kanji-char{font-family:"Noto Sans JP",sans-serif;color:var(--ink)}
+.divider{border-top:1px solid var(--line)}
+.btile{border-radius:14px;transition:transform .12s,box-shadow .15s,border-color .15s;box-shadow:0 1px 2px rgba(20,34,80,.04)}
+.btile:hover:not(:disabled){transform:translateY(-1px);border-color:#b9c8f0}
+.btile b{font-family:"Noto Sans JP",sans-serif;font-weight:800}
+.btile.sel{box-shadow:0 8px 18px -10px rgba(58,95,214,.8)}
+.bank .btile b{font-family:"Noto Sans JP",sans-serif}
+.bigkana{font-family:"Noto Sans JP",sans-serif;font-weight:900;color:var(--accent);text-shadow:0 6px 18px rgba(58,95,214,.18)}
+.slot{border-radius:14px;font-family:"Noto Sans JP",sans-serif;font-weight:900;color:var(--ink)}
+.slot.filled{box-shadow:0 6px 14px -8px rgba(58,95,214,.7)}
+.seg{border-radius:999px;padding:3px;background:#f0f4fc;border:1px solid var(--line)}
+.seg button{border-radius:999px;font-family:inherit;font-weight:800}
+.seg button.on{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff}
+#builderKana .title{margin-top:20px}
+.footer{margin-top:26px;color:var(--muted);font-size:.85rem;text-align:center}
+details summary{cursor:pointer;font-weight:800;color:var(--accent)}
+@media (max-width:560px){.panel{padding:16px}.dl{padding:7px 11px;font-size:.8rem}.brand-icon{width:46px;height:46px;flex-basis:46px}header .wrap{align-items:flex-start}}
+header .wrap>div:not(.dl){flex:1 1 0;min-width:0}
+@media (max-width:560px){header .wrap{flex-wrap:wrap}header .wrap>div:not(.dl){flex:1 1 calc(100% - 70px)}.dl{margin-left:70px;margin-top:4px}.subhead{max-width:none}}
+
+:root{--accent:#1f7a5a;--accent2:#35a37a;--soft:#e4f4ec;--sun:#f5a524;--line:#d9eadf;--paper:#eef6f1}
+html{background:var(--paper)}
+body{background:radial-gradient(1200px 500px at 50% -200px,#d6eee1 0%,transparent 70%),var(--paper)}
+header{background:linear-gradient(135deg,#0f3b2c 0%,#1d6a4e 55%,#35a37a 100%);box-shadow:0 10px 30px -12px rgba(15,59,44,.6)}
+header::before{background:rgba(245,165,36,.28)}
+.tag{color:#17684b}.chunk{background:var(--soft);border-color:#cfe6da}
+.tab.active{box-shadow:0 8px 18px -8px rgba(31,122,90,.7)}
+.primary{box-shadow:0 8px 18px -10px rgba(31,122,90,.9)}
+.daybutton.selected{background:linear-gradient(180deg,#f1faf5,#e0f2e8)}
+.stat{background:linear-gradient(180deg,#f6fbf8,#ebf6f0);border-color:#dcebe3}
+.flash{background:linear-gradient(180deg,#fcfefd,#eef8f2);border-color:#dcebe3}
+.jp{font-family:"Nunito",system-ui,sans-serif}
+.choicewrap{display:flex;gap:8px;align-items:stretch}.choicewrap .choice{flex:1;min-width:0}.hearchoice{flex:0 0 auto;padding:0 14px;font-size:1.1rem;border-radius:12px}
+.daybutton span{display:block}.daybutton .state{margin-top:4px}.native{font-size:.85rem;color:var(--good);font-weight:700;margin:-4px 0 6px}
+details.about{background:#f6fbf8;border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin:10px 0 14px}
+details.about p{margin:8px 0}
+select{font:inherit;font-weight:700;border:1px solid var(--line);border-radius:10px;padding:8px 10px;background:#fff;color:var(--ink)}
+</style>
+</head>
+<body>
+<header><div class="wrap"><img class="brand-icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYmciIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjMGYzYjJjIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzM1YTM3YSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxyYWRpYWxHcmFkaWVudCBpZD0ic3VuIiBjeD0iMC41IiBjeT0iMC41IiByPSIwLjUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZmQ0OGEiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZjVhNTI0Ii8+CiAgICA8L3JhZGlhbEdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcng9IjExMiIgZmlsbD0idXJsKCNiZykiLz4KICA8Y2lyY2xlIGN4PSIzNTIiIGN5PSIzNTIiIHI9IjE1MCIgZmlsbD0idXJsKCNzdW4pIiBvcGFjaXR5PSIwLjk1Ii8+CiAgPGcgZmlsbD0iI2ZmZmZmZiI+CiAgICA8cmVjdCB4PSIxMTgiIHk9IjEzMiIgd2lkdGg9IjI3NiIgaGVpZ2h0PSIyMDAiIHJ4PSI0NiIvPgogICAgPHBhdGggZD0iTTE3NiAzMjIgTDE2MCAzNzggTDIzMiAzMzIgWiIvPgogIDwvZz4KICA8dGV4dCB4PSIyNTYiIHk9IjI2OCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Ik51bml0bywgQXJpYWwgUm91bmRlZCBNVCBCb2xkLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9IjkwMCIgZm9udC1zaXplPSIxMzIiIGZpbGw9IiMwZjNiMmMiPkR0PC90ZXh0Pgo8L3N2Zz4K" alt="" width="56" height="56"><div style="min-width:0"><h1>Pennsylvania Dutch</h1><p>Deitsh for the ministry · 18 short lessons</p><div class="subhead">Hear each word, say it out loud, then check yourself.</div></div><button class="dl" id="dlApp" type="button">⬇ Download app</button></div></header>
+<main><div class="tabs" role="tablist"><button class="tab active" data-tab="lessons">Lessons</button><button class="tab" data-tab="flash">Flashcards</button><button class="tab" data-tab="quiz">Quiz</button><button class="tab" data-tab="progress">Progress</button></div>
+<section id="lessons"><div class="panel">
+<details class="about"><summary>About the sound and spelling</summary>
+<p class="small">No phone or computer has a Pennsylvania Dutch voice. The app uses an English or German computer voice as a rough guide, so it will not sound native.</p>
+<p class="small"><b>For the real sound</b>, tap 🎙 under any word and record a native speaker. That recording then plays whenever you tap Hear, in lessons, flashcards and the quiz. It stays on this device.</p>
+<p class="small">Spelling varies between communities. Most words follow the Deitsh spelling used in jw.org/pdc; a few everyday greetings use a more German-looking spelling. Ask a native speaker to confirm anything before you rely on it. Starter vocabulary was gathered from the learn-dutch.org word list, Omniglot and jw.org/pdc.</p>
+<div class="row" style="justify-content:flex-start;margin-top:8px"><label class="small" for="vm"><b>Computer voice</b></label><select id="vm"><option value="auto">Auto (picks per word)</option><option value="en">English voice</option><option value="de">German voice</option></select><button class="secondary" id="testv" type="button">🔊 Test</button></div></details>
+<div class="daygrid" id="lessonGrid"></div><hr class="divider" style="margin:16px 0"><div id="lessonBody"></div><div class="note" id="msg"></div></div></section>
+<section id="flash" class="hidden"><div class="panel"><div class="row"><div><h2 class="title">Flashcards</h2><p class="muted small">Random words from lessons you have learned. See the English, hear the Pennsylvania Dutch, then say it.</p></div><span class="tag" id="flashCount">0 cards</span></div><div id="flashArea"></div></div></section>
+<section id="quiz" class="hidden"><div class="panel"><h2 class="title">Quiz</h2><div id="quizArea"></div></div></section>
+<section id="progress" class="hidden"><div class="panel"><h2 class="title">Progress</h2><div class="progress"><span id="bar"></span></div><div class="stats"><div class="stat"><strong id="stDone">0</strong><div class="muted small">Lessons learned</div></div><div class="stat"><strong id="stWords">0</strong><div class="muted small">Words learned</div></div><div class="stat"><strong id="stBest">—</strong><div class="muted small">Best quiz</div></div><div class="stat"><strong id="stNative">0</strong><div class="muted small">Native recordings</div></div></div><p class="note">Progress and recordings are saved in this browser on this device only.</p><button class="secondary" data-a="reset" type="button">Reset progress</button></div></section>
+<p class="footer">A study aid, not a substitute for a native speaker. Audio and speaking depend on your browser and device.</p></main>
+<script>const L=[
+["Hello and thank you",[["Gude Daag","Hello / good day","d"],["Gude Mariye","Good morning","d"],["Wie geht’s?","How are you?","d"],["Denki","Thank you","","Danki"],["Willkumm","Welcome","d"]]],
+["Yes, no, understanding",[["Ya","Yes"],["Nay","No","","Nee"],["Ich fashtay nett","I don’t understand"],["Kansht du Deitsh shvetza?","Can you speak Pennsylvania Dutch?"],["Gude Nacht","Good night","d"]]],
+["God and the Bible",[["Jehova","Jehovah"],["Gott","God"],["Da Hah","The Lord"],["Di Bivvel","The Bible"],["Da Jesus","Jesus"]]],
+["The Kingdom and good news",[["Es Reich","The kingdom"],["Gott Sei Reich","God’s Kingdom"],["Di good news","The good news"],["Breddicha","To preach"],["Di ministry","The ministry (preaching work)"]]],
+["Meetings",[["Da Fasamling Blatz","The Kingdom Hall"],["Di meeting","The meeting"],["Di deichdivoch fasamling","The midweek meeting"],["Di congregation","The congregation"],["Da elder","The elder"]]],
+["Bible study",[["Da Bivvel Shtoddi","Bible study"],["Da glawva","Faith / belief"],["Glawva","To believe"],["Laysa","To read"],["Abheicha","To listen"]]],
+["Special occasions",[["Ohdenkes Funn da Jesus Sei Doht","Memorial of Jesus’ Death"],["Di convention","The convention"],["Da Bivvel Talk","The Bible talk"],["Di Neiy Veld Translation","The New World Translation"],["Da publication","The publication"]]],
+["Inviting and thanking",[["Haysa","To invite"],["Miah vella eich haysa zu ’s Ohdenkes Funn da Jesus Sei Doht","We want to invite you to the Memorial of Jesus’ Death"],["Loss mich helfa!","Let me help!"],["Denki fa alles’s du dusht","Thank you for everything you do"],["Es macht nix aus","It doesn’t matter"]]],
+["Love and peace",[["Di leevi","Love"],["Leeva","To love (God)"],["Gleicha","To like / to love (a person)"],["Peace","Peace","","Fridda"],["Faythfel","Faithful"]]],
+["People",[["Di family","Family"],["Da friend","Friend"],["Da nochbah","Neighbor"],["Di eldra","Parents"],["Di leit","People"]]],
+["Time of day",[["Da meiyet","Morning"],["Dimeiyet","This morning"],["Nochmiddawk","Afternoon"],["Dinohvet","This evening"],["Da dawk","Day"]]],
+["When?",[["Geshtah","Yesterday"],["Nau","Now"],["Shpaydah","Later"],["Oft","Often"],["Nee nett","Never"]]],
+["Numbers",[["Ayn","One"],["Zvay","Two"],["Drei","Three"],["Fimf","Five"],["Zeyya","Ten"]]],
+["Describing things",[["Goot","Good"],["Shay","Nice"],["Grohs","Big"],["Neiy","New"],["Ald","Old"]]],
+["Feelings and states",[["Haebbi","Happy"],["Froh","Glad"],["Ksund","Healthy"],["Bissi","Busy"],["Reddi","Ready"]]],
+["Useful actions",[["Kumma","To come"],["Helfa","To help"],["Frohwa","To ask"],["Vissa","To know (a fact)"],["Layva","To live"]]],
+["Home and food",[["Es haus","House"],["Di haymet","Home"],["Di deah","Door"],["Broht","Bread"],["Da kucha","Cake"]]],
+["Polite phrases",[["Es dutt mer Leed","I’m sorry","d"],["Ich bin gut","I’m fine","d"],["Ich glawb","I think"],["Gell?","Isn’t it? / right?"],["Ich zayl dich nett ufhalda","I won’t keep you"]]]
+];
+const $=id=>document.getElementById(id),ST='padutch-v1';
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const shuf=a=>[...a].sort(()=>Math.random()-.5);
+let S={done:[],best:0,vm:'auto',...(()=>{try{return JSON.parse(localStorage.getItem(ST)||'{}')}catch(e){return{}}})()};
+const save=()=>{try{localStorage.setItem(ST,JSON.stringify(S))}catch(e){}};
+const items=idx=>idx.flatMap(i=>L[i][1].map((x,j)=>({id:i+'-'+j,pdc:x[0],en:x[1],v:x[2],alt:x[3]})));
+const allItems=()=>items(L.map((_,i)=>i));
+// native audio (IndexedDB)
+let N={},cur=0,F={c:null,heard:false,rev:false,url:null,rec:false},Q=null,R={id:null,ctl:null};
+const idb=()=>new Promise((res,rej)=>{const r=indexedDB.open('padutch',1);r.onupgradeneeded=()=>r.result.createObjectStore('a');r.onsuccess=()=>res(r.result);r.onerror=()=>rej(r.error)});
+const nload=async()=>{try{const d=await idb(),s=d.transaction('a').objectStore('a'),ks=await new Promise(r=>{const q=s.getAllKeys();q.onsuccess=()=>r(q.result);q.onerror=()=>r([])}),vs=await new Promise(r=>{const q=s.getAll();q.onsuccess=()=>r(q.result);q.onerror=()=>r([])});ks.forEach((k,i)=>N[k]=vs[i])}catch(e){}};
+const nput=async(k,v)=>{if(v)N[k]=v;else delete N[k];try{const d=await idb(),s=d.transaction('a','readwrite').objectStore('a');v?s.put(v,k):s.delete(k)}catch(e){}};
+// audio
+function say(t,rate,v){if(!('speechSynthesis' in window)){msg('This browser cannot speak text. Try Chrome, Edge or Safari.');return}speechSynthesis.cancel();const m=S.vm==='auto'?(v==='d'?'de':'en'):S.vm,u=new SpeechSynthesisUtterance(t);u.lang=m==='de'?'de-DE':'en-US';const p=speechSynthesis.getVoices().find(x=>x.lang.toLowerCase().startsWith(m));if(p)u.voice=p;u.rate=rate;speechSynthesis.speak(u)}
+function play(it,rate){if(N[it.id]){new Audio(URL.createObjectURL(N[it.id])).play().catch(()=>{});return}say(it.pdc,rate,it.v)}
+function msg(t){const e=$('msg');if(e)e.textContent=t}
+// recording
+async function recStart(){const st=await navigator.mediaDevices.getUserMedia({audio:true}),mr=new MediaRecorder(st),ch=[];mr.ondataavailable=e=>e.data.size&&ch.push(e.data);const done=new Promise(r=>mr.onstop=()=>{st.getTracks().forEach(t=>t.stop());r(new Blob(ch,{type:mr.mimeType||'audio/webm'}))});mr.start();return{stop:()=>{if(mr.state!=='inactive')mr.stop();return done}}}
+async function toggleRec(id,after,note){
+ if(R.ctl){const c=R.ctl,rid=R.id;R={id:null,ctl:null};const b=await c.stop();await after(rid,b);return}
+ if(!navigator.mediaDevices||!window.MediaRecorder){note('Recording is not supported in this browser. Try Chrome or Edge.');return}
+ try{R={id,ctl:await recStart()}}catch(e){note('Microphone blocked. Allow the microphone for this site in your browser settings.');return}
+ note('Recording… tap again to stop.');return 'on'}
+// tabs
+const show=id=>{document.querySelectorAll('main section').forEach(s=>s.classList.toggle('hidden',s.id!==id));document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('active',b.dataset.tab===id));({lessons:rLessons,flash:rFlash,quiz:rQuiz,progress:rProgress})[id]()};
+// lessons
+function rLessons(){
+ const it=items([cur]),done=S.done.includes(cur);
+ $('lessonGrid').innerHTML=L.map((l,i)=>`<button class="daybutton ${i===cur?'selected':''}" data-a="les" data-v="${i}"><strong>Lesson ${i+1}</strong><span class="muted small">${esc(l[0])}</span><span class="state">${S.done.includes(i)?'Learned ✓':'Not yet'}</span></button>`).join('');
+ $('lessonBody').innerHTML=`<div class="muted tiny">LESSON ${cur+1} OF ${L.length}</div><h2 class="title">${esc(L[cur][0])}</h2>`+it.map(x=>`<div class="phrase"><div class="jp" lang="pdc">${esc(x.pdc)}</div><div class="meaning">${esc(x.en)}</div>${x.alt?`<div class="note">Also written: ${esc(x.alt)}</div>`:''}<div class="actions"><button class="secondary" data-a="hear" data-v="${x.id}">🔊 Hear</button><button class="secondary" data-a="slow" data-v="${x.id}">🐢 Slow</button><button class="${R.id===x.id?'danger':'secondary'}" data-a="nat" data-v="${x.id}">${R.id===x.id?'■ Stop':'🎙 Record native speaker'}</button>${N[x.id]?`<button class="secondary" data-a="natdel" data-v="${x.id}">✕ Remove recording</button>`:''}</div>${N[x.id]?'<div class="native">✓ Your native-speaker recording plays when you tap Hear.</div>':''}</div>`).join('')+`<div class="actions"><button class="secondary" data-a="les" data-v="${Math.max(0,cur-1)}" ${cur?'':'disabled'}>← Previous</button><button class="secondary" data-a="les" data-v="${Math.min(L.length-1,cur+1)}" ${cur<L.length-1?'':'disabled'}>Next →</button><button class="${done?'secondary':'primary'}" data-a="learn">${done?'Learned ✓ (tap to undo)':'Mark lesson learned ✓'}</button></div>`;
+}
+// flashcards
+function rFlash(){
+ const pool=items(S.done);$('flashCount').textContent=pool.length+(pool.length===1?' card':' cards');
+ const a=$('flashArea');
+ if(!pool.length){a.innerHTML='<div class="flash" style="margin-top:14px"><div class="title">No cards yet</div><p class="muted">Finish a lesson first: open Lessons and tap “Mark lesson learned”. Its words will appear here.</p></div>';return}
+ if(!F.c){a.innerHTML=`<div class="flash" style="margin-top:14px;text-align:center"><p class="muted">Random words from your learned lessons (${pool.length} total). You see the English, then must <b>hear</b> the Pennsylvania Dutch before the spelling unlocks.</p><button class="primary" data-a="fnext">Start flashcards</button></div>`;return}
+ const c=F.c;
+ a.innerHTML=`<div class="flash" style="margin-top:14px;text-align:center"><div class="tiny">SAY IT IN PENNSYLVANIA DUTCH</div><div class="meaning" style="font-size:clamp(1.5rem,6vw,2.1rem);margin:14px 0">${esc(c.en)}</div>
+ ${F.rev?`<div class="jp" lang="pdc" style="font-size:clamp(1.6rem,6vw,2.3rem)">${esc(c.pdc)}</div>${c.alt?`<div class="note">Also written: ${esc(c.alt)}</div>`:''}`:`<button class="secondary" data-a="frev" ${F.heard?'':'disabled'}>${F.heard?'Show the spelling':'🔒 Hear it first to unlock the spelling'}</button>`}
+ <div class="actions" style="justify-content:center;margin-top:16px"><button class="primary" data-a="fhear">🔊 Hear it</button><button class="secondary" data-a="fslow">🐢 Slow</button><button class="${F.rec?'danger':'secondary'}" data-a="frec">${F.rec?'■ Stop recording':'🎤 Record my voice'}</button></div>
+ ${F.url?`<div style="margin-top:12px"><div class="muted small">Your recording</div><audio controls src="${F.url}" style="width:100%;max-width:320px"></audio></div>`:''}
+ <div class="note" id="fmsg">${F.rec?'Recording… say the word, then tap Stop.':'Tap Hear, say it out loud, then record yourself to compare.'}</div>
+ <div class="actions" style="justify-content:center"><button class="primary" data-a="fnext">Next random card →</button></div></div>`;
+}
+const fnext=()=>{const p=items(S.done);if(F.url)URL.revokeObjectURL(F.url);F.url=null;F.heard=false;F.rev=false;if(!p.length){F.c=null;return rFlash()}let x;do{x=p[Math.floor(Math.random()*p.length)]}while(p.length>1&&F.c&&x.id===F.c.id);F.c=x;rFlash()};
+// quiz
+function rQuiz(){
+ const a=$('quizArea');
+ if(!Q){a.innerHTML=`<p class="muted">10 questions. You see an English word or phrase and pick the Pennsylvania Dutch. Tap 🔊 beside any answer to hear it first. Questions come from ${S.done.length?'your learned lessons':'all lessons (you have not marked any learned yet)'}.</p><button class="primary" data-a="qstart">Start quiz</button>${S.best?`<p class="note">Best score: ${S.best} / 10</p>`:''}`;return}
+ if(Q.i>=Q.qs.length){if(Q.score>S.best){S.best=Q.score;save()}a.innerHTML=`<div class="flash" style="text-align:center"><div class="title">${Q.score} / ${Q.qs.length}</div><p class="muted">${Q.score===Q.qs.length?'Perfect!':'Nice work. Try again to beat your score.'}</p><button class="primary" data-a="qstart">Play again</button></div>`;return}
+ const q=Q.qs[Q.i];
+ a.innerHTML=`<div class="muted tiny">QUESTION ${Q.i+1} OF ${Q.qs.length}</div><div class="flash" style="margin:10px 0"><div class="muted small">Choose the Pennsylvania Dutch for:</div><div class="meaning" style="font-size:1.5rem">${esc(q.p.en)}</div></div><div class="choices">${q.opts.map((o,i)=>{let c='';if(Q.ans!==null)c=o.id===q.p.id?' correct':(i===Q.ans?' wrong':'');return`<div class="choicewrap"><button class="choice${c}" data-a="ans" data-v="${i}" ${Q.ans!==null?'disabled':''}>${esc(o.pdc)}</button><button class="secondary hearchoice" data-a="qhear" data-v="${i}" aria-label="Hear this answer">🔊</button></div>`}).join('')}</div>${Q.ans!==null?`<div class="feedback ${q.opts[Q.ans].id===q.p.id?'good':'bad'}">${q.opts[Q.ans].id===q.p.id?'Correct!':'Not quite. The answer is '+esc(q.p.pdc)+'.'}</div><button class="primary" data-a="qnext">${Q.i+1<Q.qs.length?'Next →':'See score'}</button>`:''}`;
+}
+// progress
+function rProgress(){
+ $('stDone').textContent=S.done.length+' / '+L.length;$('stWords').textContent=S.done.length*5;$('stBest').textContent=S.best?S.best+' / 10':'—';$('stNative').textContent=Object.keys(N).length;
+ $('bar').style.width=(S.done.length/L.length*100)+'%';$('vm').value=S.vm;
+}
+// actions
+const A={
+ les:v=>{cur=+v;rLessons();window.scrollTo({top:0,behavior:'smooth'})},
+ hear:v=>play(allItems().find(x=>x.id===v),.8),
+ slow:v=>play(allItems().find(x=>x.id===v),.4),
+ learn:()=>{S.done=S.done.includes(cur)?S.done.filter(x=>x!==cur):[...S.done,cur];save();rLessons()},
+ nat:async v=>{const r=await toggleRec(v,async(id,b)=>{await nput(id,b);rLessons()},msg);rLessons()},
+ natdel:async v=>{await nput(v,null);rLessons()},
+ fhear:()=>{F.heard=true;play(F.c,.8);rFlash()},fslow:()=>{F.heard=true;play(F.c,.4);rFlash()},frev:()=>{F.rev=true;rFlash()},fnext,
+ frec:async()=>{const r=await toggleRec('fc',async(id,b)=>{if(F.url)URL.revokeObjectURL(F.url);F.url=URL.createObjectURL(b);F.rec=false;rFlash()},t=>{const e=$('fmsg');if(e)e.textContent=t});F.rec=r==='on';rFlash()},
+ qstart:()=>{const pool=items(S.done.length?S.done:L.map((_,i)=>i)),all=allItems();Q={i:0,score:0,ans:null,qs:shuf(pool).slice(0,10).map(p=>({p,opts:shuf([p,...shuf(all.filter(o=>o.id!==p.id&&o.pdc!==p.pdc)).slice(0,3)])}))};rQuiz()},
+ ans:v=>{if(Q.ans!==null)return;Q.ans=+v;const q=Q.qs[Q.i];if(q.opts[Q.ans].id===q.p.id)Q.score++;rQuiz()},
+ qnext:()=>{Q.i++;Q.ans=null;rQuiz()},
+ qhear:v=>play(Q.qs[Q.i].opts[+v],.8),
+ reset:()=>{if(confirm('Reset all lessons and scores? Native recordings are kept.')){S={...S,done:[],best:0};save();Q=null;F.c=null;rProgress()}}
+};
+document.addEventListener('click',e=>{const b=e.target.closest('[data-a]');if(b&&A[b.dataset.a])A[b.dataset.a](b.dataset.v)});
+document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>show(b.dataset.tab)));
+$('vm').onchange=e=>{S.vm=e.target.value;save()};
+$('testv').onclick=()=>say('Gude Daag',.8,'d');
+$('dlApp').onclick=()=>{const h='<!doctype html>\n'+document.documentElement.outerHTML,a=document.createElement('a');a.href=URL.createObjectURL(new Blob([h],{type:'text/html'}));a.download='pennsylvania-dutch.html';document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},1000)};
+nload().then(()=>show('lessons'));
+</script>
+</body></html>
